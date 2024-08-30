@@ -1,0 +1,78 @@
+:root {
+  --primary: white;
+  --primary2: black;
+  --bg: #0e47a1;
+}
+
+body {
+  background-color: var(--bg);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-nav {
+  background-image: url(../img/fontbolt.png);
+  background-size: cover;
+  width: 278px;
+  height: 60px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.navbar a {
+  color: var(--primary2);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.menu-login {
+  position: relative;
+  display: inline-block;
+}
+.content {
+  display: none;
+  position: absolute;
+  background-color: var(--primary);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(red, green, blue, alpha);
+  z-index: 1;
+  right: 0;
+  border-radius: 10px;
+}
+.content a {
+  color: var(--primary2);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.content a:hover {
+  background-color: red;
+  border-radius: 10px;
+}
+.menu-login:hover .content {
+  display: block;
+}
+.text-main {
+  margin-left: 24px;
+  color: var(--primary);
+  font-size: 25px;
+  font-weight: bold;
+}
+.bg-main {
+  background-image: url(../img/bg-main.png);
+  background-size: cover;
+  width: 1210px;
+  float: right;
+  /* display: flex;
+  justify-content: center; */
+  height: 700px;
+}
