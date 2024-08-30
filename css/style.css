@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* navbar-start */
 .logo-nav {
   background-image: url(../img/fontbolt.png);
   background-size: cover;
@@ -34,6 +34,9 @@ nav {
   justify-content: center;
   cursor: pointer;
 }
+/* navbar-end */
+
+/* menu-login start */
 .menu-login {
   position: relative;
   display: inline-block;
@@ -61,6 +64,7 @@ nav {
 .menu-login:hover .content {
   display: block;
 }
+/* menu-login end */
 .text-main {
   margin-left: 24px;
   color: var(--primary);
